@@ -1,0 +1,126 @@
+Listening for transport dt_socket at address: 8000
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building modular-jpa-persistence-web 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.25:run (default-cli) @ modular-jpa-persistence-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ modular-jpa-persistence-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ modular-jpa-persistence-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ modular-jpa-persistence-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ modular-jpa-persistence-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< maven-jetty-plugin:6.1.25:run (default-cli) @ modular-jpa-persistence-web <<<
+[INFO] 
+[INFO] --- maven-jetty-plugin:6.1.25:run (default-cli) @ modular-jpa-persistence-web ---
+[INFO] Configuring Jetty for project: modular-jpa-persistence-web
+[INFO] Webapp source directory = D:\workspace\modular-jpa-persistence\de.slackspace.tutorials.web\src\main\webapp
+[INFO] Reload Mechanic: manual
+[INFO] Classes = D:\workspace\modular-jpa-persistence\de.slackspace.tutorials.web\target\classes
+[INFO] Context path = /modular-jpa-persistence-web
+[INFO] Tmp directory =  determined at runtime
+[INFO] Web defaults = org/mortbay/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = D:\workspace\modular-jpa-persistence\de.slackspace.tutorials.web\src\main\webapp\WEB-INF\web.xml
+[INFO] Webapp directory = D:\workspace\modular-jpa-persistence\de.slackspace.tutorials.web\src\main\webapp
+[INFO] Starting jetty 6.1.25 ...
+2012-06-27 17:49:05 [main] INFO : org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2012-06-27 17:49:05 [main] INFO : org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Jun 27 17:49:05 CEST 2012]; root of context hierarchy
+2012-06-27 17:49:05 [main] INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/root-context.xml]
+2012-06-27 17:49:05 [main] INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/db.xml]
+2012-06-27 17:49:05 [main] INFO : org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [db.properties]
+2012-06-27 17:49:05 [main] INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e4540e: defining beans [pageController,personDaoImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,placeholderConfig,entityManagerFactory,dataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-06-27 17:49:06 [main] INFO : org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.Environment - hibernate.properties not found
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2012-06-27 17:49:06 [main] INFO : org.hibernate.ejb.Version - Hibernate EntityManager 3.6.9.Final
+2012-06-27 17:49:06 [main] INFO : org.hibernate.ejb.Ejb3Configuration - Processing PersistenceUnitInfo [
+	name: default
+	...]
+2012-06-27 17:49:06 [main] WARN : org.hibernate.ejb.Ejb3Configuration - Defining hibernate.transaction.flush_before_completion=true ignored in HEM
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: de.slackspace.tutorials.entity.Person
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.annotations.EntityBinder - Bind entity de.slackspace.tutorials.entity.Person on table PERSON
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2012-06-27 17:49:06 [main] INFO : org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2012-06-27 17:49:06 [main] INFO : org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider - Using provided datasource
+2012-06-27 17:49:06 [main] INFO : org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.HSQLDialect
+2012-06-27 17:49:06 [main] INFO : org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Database ->
+       name : HSQL Database Engine
+    version : 1.8.0
+      major : 1
+      minor : 8
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Driver ->
+       name : HSQL Database Engine Driver
+    version : 1.8.0
+      major : 1
+      minor : 8
+2012-06-27 17:49:06 [main] INFO : org.hibernate.transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+2012-06-27 17:49:06 [main] INFO : org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2012-06-27 17:49:06 [main] INFO : org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge - Cache provider: org.hibernate.cache.HashtableCacheProvider
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2012-06-27 17:49:06 [main] INFO : org.hibernate.impl.SessionFactoryImpl - building session factory
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@1e9711
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@4ffbec
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@12482b6
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@1afa1
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1afa1
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@b17a36
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1ce77c9
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1ce77c9
+2012-06-27 17:49:06 [main] INFO : org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a6884
+2012-06-27 17:49:06 [main] INFO : org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2012-06-27 17:49:06 [main] INFO : org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+2012-06-27 17:49:06 [main] INFO : org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+2012-06-27 17:49:06 [main] INFO : org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+2012-06-27 17:49:06 [main] INFO : org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: PERSON
+2012-06-27 17:49:06 [main] INFO : org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: PERSON
+2012-06-27 17:49:06 [main] INFO : org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+2012-06-27 17:49:06 [main] INFO : org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1207 ms
+2012-06-27 17:49:07 [main] INFO : org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'appServlet': initialization started
+2012-06-27 17:49:07 [main] INFO : org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Jun 27 17:49:07 CEST 2012]; parent: Root WebApplicationContext
+2012-06-27 17:49:07 [main] INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/servlet-context.xml]
+2012-06-27 17:49:07 [main] INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@481810: defining beans [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@e4540e
+2012-06-27 17:49:07 [main] INFO : org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2012-06-27 17:49:07 [main] INFO : org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'appServlet': initialization completed in 359 ms
+[INFO] Started Jetty Server
+[WARNING] scanIntervalSeconds is set to 3 but will be IGNORED due to manual reloading
+[INFO] Console reloading is ENABLED. Hit ENTER on the console to restart the context.
