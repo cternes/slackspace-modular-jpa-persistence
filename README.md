@@ -7,8 +7,8 @@ To let the project run without errors, build and install the whole project as a 
 
     mvn clean compile install
 
-Now locate your maven repository, under windows the path is mostly in your home directory. Mine is under _C:\Users\cternes\.m2\repository_.
-If you located your maven repository, try to find the recently installed jar version of the JPA persistence entity project. Mine is under _C:\Users\cternes\.m2\repository\de\slackspace\tutorials\modular-jpa-persistence-entity\0.0.1-SNAPSHOT_.
+Now locate your maven repository, under windows the path is mostly in your home directory. Mine is under _C:\Users\cternes\\.m2\repository_.
+If you located your maven repository, try to find the recently installed jar version of the JPA persistence entity project. Mine is under _C:\Users\cternes\\.m2\repository\de\slackspace\tutorials\modular-jpa-persistence-entity\0.0.1-SNAPSHOT_.
 Now open the pom.xml in the folder _de.slackspace.tutorials.web_.
 Search for the first occurence of _entities.jar.location_ element and change the absolute file path to your jar file of the JPA persistence entity project in your maven repository. Mine looks like this:
 
